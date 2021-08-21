@@ -58,8 +58,8 @@ const questions = () =>{
             {
                 type: 'list',
                 name: 'license',
-                message: 'Choose what type of license oyu would like to use:',
-                choices: ["MIT", "something", "something2"]
+                message: 'Choose what type of license you would like to use:',
+                choices: ["MIT", "Apache", "Boost"]
                 }
     ])
     .then((answers)=>{
