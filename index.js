@@ -19,11 +19,25 @@ const questions = () =>{
                 }
             }
         },
+
         {
             type: 'input',
             name: 'description',
             message: 'Tell us a little about your project',
         },
+
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Provide a link for your GitHub Profile',
+        },
+
+        {
+        type: 'input',
+        name: 'email',
+        message: 'Provide your email adresss',
+        },
+
         {
             type: 'input',
             name: 'installation',
@@ -37,6 +51,7 @@ const questions = () =>{
                 }
             }
         },
+
         {
             type: 'input',
             name: 'usage',
@@ -50,11 +65,13 @@ const questions = () =>{
                 }
             }
         },
+
         {
             type: 'input',
             name: 'credits',
             message: 'List the collaborators, if any, with links to their Github profiles.',
             },
+
             {
                 type: 'list',
                 name: 'license',

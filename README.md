@@ -1,24 +1,32 @@
-# aefbegbetbgwet
+# project
 
-  ##Table of contents
+ ## Table of contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
 
 ---
+## Description
 
-  etbsegb
+  its really cool
 
-  ebsetb
+## Installation
+  do some stuff
 
-  eb
+## Usage
+  blablablba
 
   ---
 
-  etb
+## Credits
+  none one was nice enough to help me
+
+  ### Have any questions or concerns? Contact me!
+https://github.com/KyleKilmartin371
+kylekilmartin371@gmail.com
 
   ---
-
-  undefined
+### License
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)https://opensource.org/licenses/MIT
 
