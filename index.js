@@ -8,7 +8,7 @@ const questions = () =>{
     return inquirer.prompt([
         {
             type: 'input',
-            name: 'project',
+            name: 'title',
             message: 'What is your projects name? (Required)',
             validate: projectInput =>{
                 if (projectInput){
@@ -54,12 +54,28 @@ const questions = () =>{
             type: 'input',
             name: 'credits',
             message: 'List the collaborators, if any, with links to their Github profiles.',
-            }
-    ]);
+            },
+            {
+                type: 'list',
+                name: 'license',
+                message: 'Choose what type of license oyu would like to use:',
+                choices: ["MIT", "something", "something2"]
+                }
+    ])
+    .then((answers)=>{
+        fs.writeFile('./README.md', generateMarkdown(answers), err =>{
+            if(err) throw err;
+            console.log('ReadMe complete! Check out readMe.md to see the output!');
+        });
+    })
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+
+// fs.writeFile('./README.md', generateMarkdown(), err =>{
+//     if(err) throw err;
+//     console.log('ReadMe complete! Check out readMe.md to see the output!');
+// });
 
 // TODO: Create a function to initialize app
 function init() {}
