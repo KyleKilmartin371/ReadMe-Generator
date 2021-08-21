@@ -1,29 +1,12 @@
-# project
+# ReadMe Generator
 
- ## Table of contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
-
----
 ## Description
 
-  its really cool
-
-## Installation
-  do some stuff
-
-## Usage
-  blablablba
-
-  ---
-
-## Credits
-  none one was nice enough to help me
+This is a Javascript program written to be ran completely on the terminal using Node.JS. Just answer the questions when prompted and you will be presented with a proffesional ReadMe at the end.
 
   ### Have any questions or concerns? Contact me!
 https://github.com/KyleKilmartin371
+
 kylekilmartin371@gmail.com
 
   ---

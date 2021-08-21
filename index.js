@@ -76,11 +76,11 @@ const questions = () =>{
                 type: 'list',
                 name: 'license',
                 message: 'Choose what type of license you would like to use:',
-                choices: ["MIT", "Apache", "Boost"]
+                choices: ["MIT", "Apache", "Boost", "None"]
                 }
     ])
     .then((answers)=>{
-        fs.writeFile('./README.md', generateMarkdown(answers), err =>{
+        fs.writeFile('./Develop/utils/ReadMe-generator.md', generateMarkdown(answers), err =>{
             if(err) throw err;
             console.log('ReadMe complete! Check out readMe.md to see the output!');
         });
