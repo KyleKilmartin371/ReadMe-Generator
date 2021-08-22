@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a Javascript program written to be ran completely on the terminal using Node.JS. Just answer the questions when prompted and you will be presented with a proffesional ReadMe at the end.
+This is a Javascript program written to be ran completely on the terminal using Node.JS. Just answer the questions when prompted and you will be presented with a proffesional ReadMe at the end. Just type Node index into your terminal and you will be ready to start!
 
   ### Have any questions or concerns? Contact me!
 https://github.com/KyleKilmartin371
